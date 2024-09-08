@@ -159,6 +159,10 @@ header img {
 
 /* SERVIÇOS */
 
+#servicos {
+    height: 450px;
+}
+
 .servicos h2 {
     margin-top: 58px;
     font-size: 38px;
@@ -166,10 +170,10 @@ header img {
 }
 
 .servicos ul {
-    margin-top: 30px;
+    margin-top: 50px;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .servicos ul li img {
