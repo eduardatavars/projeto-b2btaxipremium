@@ -14,8 +14,6 @@ header {
 }
 
 header img {
-    width: 125px;
-    height: 125px;
     align-items: center;
 }
 
@@ -35,6 +33,11 @@ header img {
     font-weight: 500;
 }
 
+.navbar-toggler {
+    background-color: #FFA500;
+    max-width: 100%;
+}
+
 .contato-wpp {
     height: 43px;
     width: 220px;
@@ -47,13 +50,14 @@ header img {
 }
 
 .contato-wpp img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .contato-wpp a {
     text-decoration: none;
     margin-left: 2px;
+    font-weight: 600;
 }
 
 /* HERO */
@@ -73,9 +77,6 @@ header img {
     position: absolute;
     bottom: 20px;
     right: 50px;
-}
-
-.hero .hero-content h1 {
     font-size: 54px;
     font-weight: 600;
 }
@@ -172,7 +173,6 @@ header img {
 .servicos ul {
     margin-top: 50px;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
 
@@ -202,7 +202,7 @@ header img {
 .contatos {
     background-color: #212121;
     color: #fff;
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .contatos h2 {
@@ -224,20 +224,27 @@ header img {
 }
 
 .contatos ul {
-    align-items: center;
-    padding-left: 88px;
-    padding-top: 36px;
+    padding-left: 128px;
+    padding-top: 36px
 }
 
 .contatos ul li {
     font-family: 'Roboto', sans-serif;
     color: #ccc;
+    align-items: center;
+    text-align: center;
+}
+
+.bi-envelope,
+.bi-telephone-plus {
+    color: #FFA500;
+    font-size: 30px;
 }
 
 /* FORMS */
 
 .forms {
-    padding: 40px;
+    padding: 80px;
 }
 
 .form-email,
@@ -278,4 +285,203 @@ footer {
 
 footer p {
     padding: 22px;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 775px) {
+
+    /* HEADER */
+
+    header {
+        height: 81px;
+    }
+
+    header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contato-wpp {
+        width: 180px;
+        height: 40px;
+        align-items: center;
+    }
+
+    .contato-wpp a,
+    .contato-wpp i {
+        font-size: 13px;
+    }
+
+    
+    /* HERO */
+    
+    #cabecalho {
+        background-color: #191919;
+    }
+
+    .hero {
+        height: 15vh;
+    }
+
+    .hero .hero-content h1 {
+        font-size: 18px;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+    }
+
+    /* HOME */
+
+    #home {
+        height: 550px;
+    }
+
+    .border-container h2 {
+        font-size: 30px;
+    }
+
+    .border-container p:first-child {
+        width: 100px;
+    }
+
+    .border-container p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .imgs {
+        align-items: center; /* Centraliza as imagens */
+    }
+
+    .imgs img {
+        max-width: 50%;
+        margin: 0;
+        width: 150px;
+        height: 160px;
+        cursor: pointer;
+    }
+
+    #home .h3 p {
+        margin: 0;
+        padding-top: 40px;
+        font-size: 24px;
+    }
+
+    /* SERVIÇOS */
+
+    #servicos {
+        height: 880px;
+    }
+
+    .carousel-item ul {
+        flex-direction: column; /* Empilha os itens verticalmente em telas pequenas */
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .carousel-item li {
+        margin-right: 0; /* Remove a margem direita */
+        margin-bottom: 20px; 
+        max-width: 100%; /* Ajusta a largura máxima para telas pequenas */
+    }
+
+    .carousel-item img {
+        max-width: 90px; /* Ajusta o tamanho das imagens em telas pequenas */
+    }
+
+    .list-unstyled li h4 {
+        font-size: 14px; 
+    }
+
+    .list-unstyled p {
+        font-size: 16px; 
+    }
+
+    /* CONTATOS */
+
+    .contatos {
+        margin: 0;
+    }
+
+    .contatos ul {
+        padding: 20px;
+        align-items: center;
+    }
+
+    /* FORMS */
+
+    .forms {
+        padding: 25px;
+    }
+
+    /* FOOTER */
+
+    footer p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    /* HEADER */
+
+    .contato-wpp {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contato-wpp a {
+        display: none;
+    }
+
+    /* HERO */
+
+    .hero .hero-content h1 {
+        font-size: 16px;
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+    }
+
+    /* HOME */
+
+    #home {
+        height: 490px;
+    }
+
+    .border-container h2 {
+        font-size: 25px;
+    }
+
+    .border-container p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .imgs img {
+        max-width: 50%;
+        margin: 0;
+        width: 100px;
+        height: 120px;
+        cursor: pointer;
+    }
+
+
+    #home .h3 p {
+        margin: 0;
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    /* SERVIÇOS */
+
+    #servicos {
+        height: 950px;
+    }
+
+    .servicos h2 {
+        font-size: 34px;
+    }
 }
