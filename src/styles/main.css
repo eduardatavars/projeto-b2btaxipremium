@@ -1,0 +1,277 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFA500;
+}
+
+/* HEADER */
+
+header {
+    height: 125px;
+}
+
+header img {
+    width: 125px;
+    height: 125px;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #191919;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav .nav-link.active {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contato-wpp {
+    height: 43px;
+    width: 220px;
+    border-radius: 50px;
+    border-color: #FFA500;
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+    align-items: center;
+}
+
+.contato-wpp img {
+    width: 30px;
+    height: 30px;
+}
+
+.contato-wpp a {
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 355px;
+    color: #fff;
+    position: relative;
+}
+
+.hero .hero-content h1 {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+.hero .hero-content h1 {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.hero-content h1 span {
+    color: #FFA500;
+}
+
+.hero::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: '';
+    opacity: 0.5;
+}
+
+/* HOME */
+
+#home {
+    background-color: #fff;
+    height: 450px;
+}
+
+.border-container p:first-child {
+    border-top: 5px solid #191919;
+    width: 140px;
+    margin: 0 auto;
+}
+
+.border-container h2 {
+    text-align: center;
+    color: #FFA500;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.border-container h2 span {
+    color: #191919;
+    font-weight: bold;
+}
+
+.border-container p {
+    color: #333B47;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.imgs {
+    margin-top: 50px;
+}
+
+.img {
+    width: 216px;
+    height: 279px;
+    cursor: pointer;
+}
+
+.h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #191919;
+    text-align: center;
+}
+
+.h3 span {
+    color: #FFA500;
+}
+
+.h3 p {
+    margin-top: 163px;
+}
+
+/* SERVIÇOS */
+
+.servicos h2 {
+    margin-top: 58px;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.servicos ul {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.servicos ul li img {
+    max-width: 50px;
+}
+
+.servicos ul li h4 {
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+}
+
+.servicos ul li p {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-indicators .active {
+    background-color: #191919;
+}
+
+/* CONTATO */
+
+.contatos {
+    background-color: #212121;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.contatos h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contatos h2 span {
+    color: #FFA500;
+}
+
+.email {
+    background-color: #fff;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #191919;
+}
+
+.contatos ul {
+    align-items: center;
+    padding-left: 88px;
+    padding-top: 36px;
+}
+
+.contatos ul li {
+    font-family: 'Roboto', sans-serif;
+    color: #ccc;
+}
+
+/* FORMS */
+
+.forms {
+    padding: 40px;
+}
+
+.form-email,
+.form-text {
+    margin-top: 20px;
+}
+
+.form-text {
+    margin-bottom: 20px;
+}
+
+.form-btn {
+    background-color: #F8AB08;
+    border-color: #FFA500;
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-btn:hover {
+    background-color: #191919;
+    border-color: #191919;
+    color: #F8AB08;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #191919;
+    border-color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    
+}
+
+footer p {
+    padding: 22px;
+}
