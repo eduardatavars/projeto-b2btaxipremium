@@ -199,8 +199,11 @@ header img {
 
 /* CONTATO */
 
+#contato {
+    background: linear-gradient(90deg, rgba(33,33,33,1) 45%, rgba(33,33,33,1) 45%, rgba(255,255,255,1) 45%);
+}
+
 .contatos {
-    background-color: #212121;
     color: #fff;
     padding: 80px 0;
 }
@@ -216,8 +219,6 @@ header img {
 }
 
 .email {
-    background-color: #fff;
-    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #191919;
@@ -399,6 +400,10 @@ footer p {
     }
 
     /* CONTATOS */
+
+    #contato {
+        background: linear-gradient(180deg, rgba(33,33,33,1) 45%, rgba(33,33,33,1) 45%, rgba(255,255,255,1) 45%);
+    }
 
     .contatos {
         margin: 0;
