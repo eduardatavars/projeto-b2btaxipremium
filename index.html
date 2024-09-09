@@ -10,17 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./src/styles/animate.css">
     <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
         <div class="container">
-            <img src="./src/img/logo/b2b_logo2_mobile.png" alt="logo-b2btaxipremium">
+            <img src="./src/img/logo/b2b_logo2_mobile.png" class="animated fadeIn" alt="logo-b2btaxipremium">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-center" id="menu">
-                <ul class="nav nav-pills d-block d-md-flex">
+                <ul class="nav nav-pills d-block d-md-flex wow fadeIn">
                     <li class="nav-item">
                         <a href="#home" class="nav-link active">
                             HOME
@@ -38,7 +39,7 @@
                     </li>
                 </ul>
             </nav>
-            <button class="contato-wpp">
+            <button class="contato-wpp wow fadeIn delay-06s">
                 <i class="bi bi-whatsapp text-colored"></i>
                 <a id="btn-wpp" href="#" target="_blank">
                     AGENDE UMA VIAGEM
@@ -49,7 +50,7 @@
     <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
         <section class="hero">
             <div class="hero-content">
-                <h1>Viaje com estilo e conforto 
+                <h1 class="wow fadeInLeft delay-03s">Viaje com estilo e conforto 
                    <br>para qualquer destino 
                    <br>que desejar<span>.</span>
                 </h1>
@@ -59,19 +60,19 @@
             <div class="container">
                 <div class="container border-container pt-3">
                     <p></p>
-                    <h2>O que você ganha com a <span>Táxi Premium</span>?</h2>
-                    <p>Qualidade, conforto, segurança e pontualidade.</p>
+                    <h2 class="wow fadeInUp delay-05s">O que você ganha com a <span>Táxi Premium</span>?</h2>
+                    <p class="wow fadeInUp delay-06s">Qualidade, conforto, segurança e pontualidade.</p>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 d-flex imgs justify-content-center">
-                        <img class="img me-1" src="./src/img/img1.jpg" alt="Imagem conforto">
-                        <img class="img me-1" src="./src/img/img2.jpg" alt="Imagem atendimento humanizado">
-                        <img class="img" src="./src/img/img3.jpg" alt="Imagem direção segura">
+                        <img class="img me-1 wow fadeInDown delay-06s" src="./src/img/img1.jpg" alt="Imagem conforto">
+                        <img class="img me-1 wow fadeInUp delay-05s" src="./src/img/img2.jpg" alt="Imagem atendimento humanizado">
+                        <img class="img wow fadeInDown delay-04s" src="./src/img/img3.jpg" alt="Imagem direção segura">
                     </div>
                     <div class="col-md-6 d-flex h3 justify-content-center">
-                        <p>UMA EXPERIÊNCIA <span>PREMIUM</span> 
+                        <p class="wow fadeIn">UMA EXPERIÊNCIA <span>PREMIUM</span> 
                            <br>PARA NOSSOS CLIENTES</p>
                     </div>
                 </div>
@@ -87,17 +88,17 @@
                                 <div class="carousel-item active">
                                     <ul class="d-flex flex-row list-unstyled">
                                         <li class="d-inline me-2">
-                                           <img src="./src/img/icons/plane-solid.svg" alt="icon avião">
+                                           <img class="wow fadeIn delay-02s" src="./src/img/icons/plane-solid.svg" alt="icon avião">
                                            <h4>Transfer para Aeroporto</h4>
                                            <p>Sua viagem começa assim que você entra no carro, não no avião. Por isso, mereça uma experiência diferenciada, especial e premium desde o início.</p> 
                                         </li>
                                         <li class="d-inline me-2">
-                                            <img src="./src/img/icons/map-solid.svg" alt="icon mapa">
+                                            <img class="wow fadeIn delay-03s" src="./src/img/icons/map-solid.svg" alt="icon mapa">
                                            <h4>Interestaduais</h4>
                                            <p>Viaje para qualquer lugar do país com motoristas experientes, carros novos e muita segurança. Chegue ao seu destino com conforto e estilo.</p> 
                                         </li>
                                         <li class="d-inline">
-                                            <img src="./src/img/icons/cart-flatbed-suitcase-solid.svg" alt="icon avião">
+                                            <img class="wow fadeIn delay-04s" src="./src/img/icons/cart-flatbed-suitcase-solid.svg" alt="icon avião">
                                            <h4>Turismo</h4>
                                            <p>Mineiros são mestres em receber. Para uma experiência única em Minas Gerais, do aeroporto aos principais pontos turísticos, conte com a gente.</p> 
                                         </li>
@@ -106,17 +107,17 @@
                                 <div class="carousel-item">
                                     <ul class="d-flex flex-row list-unstyled">
                                         <li class="d-inline me-2">
-                                           <img src="./src/img/icons/van-shuttle-solid.svg" alt="icon van">
+                                           <img class="animated fadeIn delay-02s" src="./src/img/icons/van-shuttle-solid.svg" alt="icon van">
                                            <h4>Transfer por utilitários</h4>
                                            <p>Viajar com um grupo de pessoas não significa transitar com menos conforto. Oferecemos uma frota diferenciada para viagens coletivas com SUVs.</p> 
                                         </li>
                                         <li class="d-inline me-2">
-                                            <img src="./src/img/icons/church-solid.svg" alt="icon igreja">
+                                            <img class="animated fadeIn delay-03s" src="./src/img/icons/church-solid.svg" alt="icon igreja">
                                            <h4>Cerimonial</h4>
                                            <p>O casamento é um dos momentos mais importantes na vida de qualquer um de nós. Nada mais justo que chegar na cerimônia de forma memorável e única</p> 
                                         </li>
                                         <li class="d-inline">
-                                            <img src="./src/img/icons/bell-solid.svg" alt="icon sino de notificação">
+                                            <img class="animated fadeIn delay-04s" src="./src/img/icons/bell-solid.svg" alt="icon sino de notificação">
                                            <h4>Transfer a disposição</h4>
                                            <p>Nada melhor do que contar com um veículo de luxo e alta qualidade com um motorista capacitado e com experiência a sua disposição, o período que for.</p> 
                                         </li>
@@ -136,7 +137,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 contatos justify-content-center">
-                        <h2>B<span>2</span>B TÁXI <span>PREMIUM</span>.</h2>
+                        <h2 class="wow fadeIn delay-02s">B<span>2</span>B TÁXI <span>PREMIUM</span>.</h2>
                         <ul class="list-unstyled">
                             <li class="d-flex align-items-center">
                                 <i class="bi bi-envelope me-2 fw-bold"></i>
@@ -188,6 +189,7 @@
     <script src="./src/scripts/jquery.validate.min.js"></script>
     <script src="./src/scripts/messages_pt_BR.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./src/scripts/wow.min.js"></script>
     <script src="./src/scripts/main.js"></script>
 </body>
 </html>

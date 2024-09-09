@@ -44,20 +44,16 @@ header img {
     border-radius: 50px;
     border-color: #FFA500;
     background-color: transparent;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     align-items: center;
-}
-
-.contato-wpp img {
-    width: 25px;
-    height: 25px;
 }
 
 .contato-wpp a {
     text-decoration: none;
     margin-left: 2px;
     font-weight: 600;
+    color: #fff;
 }
 
 /* HERO */

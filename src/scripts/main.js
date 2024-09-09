@@ -1,3 +1,5 @@
+new WOW().init();
+
 var CONTATO_WHATSAPP = '5531975471854';
 
 $(document).ready(function() {
