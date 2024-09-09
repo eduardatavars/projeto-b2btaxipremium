@@ -1,3 +1,5 @@
+var CONTATO_WHATSAPP = '5531975471854';
+
 $(document).ready(function() {
     $('#tel').mask('(00) 00000-0000', {
     })
@@ -28,8 +30,17 @@ $(document).ready(function() {
             alert("Seus dados e mensagem foram enviados, obrigada pela preferência!");
             form.reset();
         },
-        invalidHandler: function(form, validador) {
+        invalidHandler: function(form, validator) {
             alert("Por favor, preencha os campos para prosseguir com a solicitação!")
         }
+    })
+
+    $('#btn-wpp').click(function() {
+        var txt = 'Olá! Gostaria de agendar uma corrida.';
+
+        let encode = encodeURI(txt);
+        let URL = `https://wa.me/${CONTATO_WHATSAPP}?text=${encode}`;
+
+        $("#btn-wpp").attr('href', URL);
     })
 });
