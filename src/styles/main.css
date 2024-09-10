@@ -201,7 +201,7 @@ header img {
 
 .contatos {
     color: #fff;
-    padding: 80px 0;
+    padding: 90px 0;
 }
 
 .contatos h2 {
@@ -241,7 +241,7 @@ header img {
 /* FORMS */
 
 .forms {
-    padding: 80px;
+    padding: 90px;
 }
 
 .form-email,
@@ -414,6 +414,10 @@ footer p {
 
     .forms {
         padding: 25px;
+    }
+
+    .form-nome {
+        padding-bottom: 15px;
     }
 
     /* FOOTER */
