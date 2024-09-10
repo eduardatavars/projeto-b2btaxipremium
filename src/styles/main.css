@@ -9,10 +9,6 @@ body {
 
 /* HEADER */
 
-header {
-    height: 125px;
-}
-
 header img {
     align-items: center;
 }
@@ -23,12 +19,16 @@ header img {
     font-weight: bolder;
 }
 
-.nav .nav-link.active {
+header .container {
+    background-color: #191919;
+}
+
+#cabecalho .nav .nav-link.active {
     background-color: #FFA500;
     color: #fff;
 }
 
-.nav .nav-link {
+#cabecalho .nav .nav-link {
     color: #fff;
     font-weight: 500;
 }
@@ -238,6 +238,10 @@ header img {
     font-size: 30px;
 }
 
+.contatos p {
+    color: #fff;
+}
+
 /* FORMS */
 
 .forms {
@@ -290,10 +294,6 @@ footer p {
 
     /* HEADER */
 
-    header {
-        height: 81px;
-    }
-
     header img {
         width: 50px;
         height: 50px;
@@ -312,10 +312,6 @@ footer p {
 
     
     /* HERO */
-    
-    #cabecalho {
-        background-color: #191919;
-    }
 
     .hero {
         height: 15vh;
