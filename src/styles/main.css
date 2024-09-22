@@ -307,10 +307,13 @@ footer p {
 
     .contato-wpp a,
     .contato-wpp i {
-        font-size: 13px;
+        font-size: 12px;
     }
 
-    
+    .nav-link {
+        margin: 5px;
+    }
+
     /* HERO */
 
     .hero {
@@ -406,6 +409,12 @@ footer p {
         align-items: center;
     }
 
+    p .number,
+    p .contato-email {
+        text-decoration: none;
+        color: #fff;
+    }
+
     /* FORMS */
 
     .forms {
@@ -435,6 +444,11 @@ footer p {
 
     .contato-wpp a {
         display: none;
+    }
+
+    .contato-wpp a,
+    .contato-wpp i {
+        font-size: 10px;
     }
 
     /* HERO */
