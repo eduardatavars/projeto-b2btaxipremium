@@ -150,7 +150,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6 d-flex email justify-content-center">
-                        <form>
+                        <form action="https://api.staticforms.xyz/submit" method="post">
                             <div class="container forms">
                                 <div class="row">
                                     <div class="col-md-5 form-nome">
@@ -162,15 +162,18 @@
                                         <input id="tel" name="tel" type="tel" class="form-control" placeholder="(31) 99999-9999">
                                     </div>
                                     <div class="col-md-10 form-email">
-                                        <label for="e-mail" class="form-label">Email</label>
+                                        <label for="email" class="form-label">Email</label>
                                         <input id="email" name="email" type="email" class="form-control" placeholder="contato@email.com">
                                     </div>
                                     <div class="col-md-10 form-text" style="color: black;">
-                                        <label for="mensagem" class="form-label">Mensagem</label>
-                                        <textarea id="mensagem" name="mensagem" class="form-control" name="mensagem" placeholder="O que você precisa?"></textarea>
+                                        <label for="message" class="form-label">Mensagem</label>
+                                        <textarea id="message" name="message" class="form-control" placeholder="O que você precisa?"></textarea>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn form-btn mt-1 d-flex align-items-center">ENVIAR MENSAGEM</button>
+
+                                <input type="hidden" name="accessKey" value="c2180531-df08-4f44-8383-0d4b74750c06">
+                                <input type="hidden" name="redirectTo" value="https://b2btaxipremium.vercel.app">
                             </div>
                         </form>
                     </div>

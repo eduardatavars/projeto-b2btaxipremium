@@ -18,19 +18,19 @@ $(document).ready(function() {
                 required: true,
                 email: true
             },
-            mensagem: {
+            message: {
                 required: true
             },
         },
         messages: {
             nome: 'Por favor, insira o seu nome.',
-            telefone: 'Por favor, insira o seu telefone.',
+            tel: 'Por favor, insira o seu telefone.',
             email: 'Por favor, insira o seu e-mail.',
-            mensagem: 'Por favor, insira a sua mensagem.'
+            message: 'Por favor, insira a sua mensagem.'
         },
         submitHandler: function(form) {
             alert("Seus dados e mensagem foram enviados, obrigada pela preferência!");
-            form.reset();
+            form.submit(); //envia o formulário
         },
         invalidHandler: function(form, validator) {
             alert("Por favor, preencha os campos para prosseguir com a solicitação!")
